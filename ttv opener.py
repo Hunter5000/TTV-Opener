@@ -22,8 +22,8 @@ def openChat(url):
 	return "Error"
 
 while 1:
-    msg = "Open twitch chat of a given stream"
-    title = "Twitch Chat Opener"
+    msg = "Open the given stream using Livestreamer and its chat in a new browser tab"
+    title = "TTV Opener"
     fieldNames = ["Stream"]
     fieldValues = []
     fieldValues = eg.multenterbox(msg,title, fieldNames)
