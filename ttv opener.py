@@ -1,4 +1,5 @@
 import easygui as eg
+import webbrowser
 import os
 
 def openChat(url):
