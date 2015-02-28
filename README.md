@@ -5,7 +5,4 @@ Download for Livestreamer (Simplified BSD): http://docs.livestreamer.io/install.
 
 Download for EasyGUI (Modified BSD): http://easygui.sourceforge.net/
 
-Also it requires the webbrowser module: https://hg.python.org/cpython/file/3.4/Lib/webbrowser.py
-
-
 Sorry for how bad this is. Ideally I want a program that can open a stream using Livestreamer as well as open the Twitch popout chat in a new window. Currently it opens the stream (in best quality only) and opens the chat in a new browser tab, not the popout chat.
