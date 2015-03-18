@@ -4,16 +4,20 @@ import os
 
 def openChat(url, chat, quality):
 	check1 = url.find("http")
-	qual = " source"
+	qual = " best"
+	if quality.find("wo") != -1:
+		qual = " worst"
 	if quality.find("au") != -1:
 		qual = " audio"
+	if quality.find("so") != -1:
+		qual = " source"
 	if quality.find("hi") != -1:
 		qual = " high"
 	if quality.find("lo") != -1:
 		qual = " low"
 	if quality.find("me") != -1:
 		qual = " medium"
-	if quality.find("mo") != -1 or quality.find("wo") != -1:
+	if quality.find("mo") != -1:
 		qual = " mobile"
 	ch = False
 	if chat.find("y") != -1:
